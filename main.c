@@ -109,6 +109,7 @@ int select_company_index(){
         printf("Out of boundary!\n");
         return -1;
     }
+    return index;
 }
 
 int select_department_index(Company* company){

@@ -528,7 +528,6 @@ void handle_user_input(int option) {
             if(mode == INMEMORY_MODE){
                 print_all_companies(companyContainer);
             } else {
-                printf("FPRINT\n");
                 fCompanyContainer = open_file(filename);
                 fprint_all_companies(fCompanyContainer);
                 close_file(fCompanyContainer);

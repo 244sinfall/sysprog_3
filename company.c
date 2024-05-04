@@ -362,7 +362,7 @@ void print_all_companies(CompanyContainer* array) {
 // \param array Подразделения
 // 
 void print_all_departments(DepartmentsContainer* array) {
-    printf("#\t\tНаименование\t\tПрибыльность\n");
+    printf("#\t\tName\t\tMargin\n");
     if(array == NULL){
         return;
     }

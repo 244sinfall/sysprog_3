@@ -552,6 +552,7 @@ void handle_user_input(int option) {
         
         case PRINT_COMPANY_DEPARTMENTS_OPTION:
             print_company_departments_ui();
+            break;
 
         case QUIT_OPTION:
             printf("Exiting program.\n");

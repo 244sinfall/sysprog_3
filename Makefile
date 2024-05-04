@@ -3,3 +3,9 @@ run_test:
 
 run_cli_mem:
 	gcc -o main main.c company.c && ./main && rm main
+
+run_cli_file:
+	gcc -o main main.c company.c company_file.c && ./main ./test && rm main
+
+build_cli:
+	gcc -o main main.c company.c company_file.c
